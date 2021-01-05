@@ -7,4 +7,12 @@
  * - name إن استقبلت اسم أو "Hello <name>" تطبع
  */
 
-function greet(name) {}
+    let name = prompt(`your name`);
+    greet(name);
+ function greet(){
+     alert(`hello`);
+ }
+
+function greet(name) {
+    alert(`hello ${name}`);
+}
